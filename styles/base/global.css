@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    place-items: center;
+    background: var(--cream);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--grey);
+}

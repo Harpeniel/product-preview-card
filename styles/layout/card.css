@@ -1,0 +1,51 @@
+.card {
+  max-width: 92vw;
+  background: var(--white);
+  border-radius: 0.4rem;
+  overflow: hidden;
+  @media (min-width: 500px) {
+    display: flex;
+  }
+}
+.card__img img {
+  @media (min-width: 500px) {
+    min-height: 19.57rem;
+  }
+}
+
+.card__content {
+  padding: 1rem;
+}
+.card__content__branding {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.card__content__title {
+  color: var(--black);
+  font-weight: bold;
+  font-family: 'Fraunces';
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.card__content__description {
+  margin-bottom: 1rem;
+}
+.card__content__price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.card__content__price span:first-child {
+  color: var(--green500);
+  font-family: 'Fraunces';
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card__content__price span:last-child {
+  display: inline-block;
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  margin-left: 1rem;
+}

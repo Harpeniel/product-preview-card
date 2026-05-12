@@ -1,0 +1,7 @@
+@layer settings, base, components, layouts, utilities;
+
+@import './abstract/index.css' layer(settings);
+@import './base/index.css' layer(base);
+@import './components/index.css' layer(base);
+@import './layout/index.css' layer(layouts);
+@import './utilities/index.css' layer(utilities);
