@@ -1,9 +1,10 @@
 .card {
-  max-width: 92vw;
+  width: 92vw;
   background: var(--white);
   border-radius: 0.4rem;
   overflow: hidden;
   @media (min-width: 500px) {
+    max-width: 35.71rem;
     display: flex;
   }
 }
@@ -14,7 +15,7 @@
 }
 
 .card__content {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .card__content__branding {
   text-transform: uppercase;
